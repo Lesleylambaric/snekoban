@@ -1,0 +1,19 @@
+
+game={'k':0,'v':1}
+print(game[0])
+
+#  visited=set()
+#     games=[(game,[])]
+#     while games:
+#         current_s=games.pop(0)
+#         current_p=current_s[1]
+#         current=current_s[0]
+#         if freeze_board(current) not in visited:
+#             if victory_check(current):
+#                 return current_p
+#             visited.add(freeze_board(current))
+#             for move in get_next_directions(current):
+#                 next_g=step_game(current,move)
+#                 new_path=current_p+[move]
+#                 games.append((next_g,new_path))
+#     return None
