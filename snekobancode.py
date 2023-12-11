@@ -1,5 +1,5 @@
 """
-6.1010 Spring '23 Lab 4: Snekoban Game
+Snekoban Game
 """
 
 import json
@@ -195,21 +195,7 @@ def solve_puzzle(game):
                 queue.append((next_state, next_path))
     return None 
    
-    # visited=set()
-    # games=[(game,[])]
-    # while games:
-    #     current_s=games.pop(0)
-    #     current_p=current_s[1]
-    #     current=current_s[0]
-    #     if freeze_board(current) not in visited:
-    #         if victory_check(current):
-    #             return current_p
-    #         visited.add(freeze_board(current))
-    #         for move in get_next_directions(current):
-    #             next_g=step_game(current,move)
-    #             new_path=current_p+[move]
-    #             games.append((next_g,new_path))
-    # return None
+ 
 
 if __name__ == "__main__":
     pass
